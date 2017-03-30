@@ -1,0 +1,63 @@
+@import (reference) "../styles/style.less";
+
+.Publications {
+	.title {
+		height: auto;
+	}
+
+	.content {
+		padding-top: 0;
+	}
+
+	.publication {
+		padding: 30px 30px;
+		margin: 0 -30px 30px;
+		border: 1px solid transparent;
+
+		&:hover {
+			background: #fff;
+			border-color: darken(@bgc, 6%);
+		}
+
+		.publication-link {
+			display: block;
+		}
+
+		.page {
+			opacity: 0.35;
+		}
+
+		.publication-journal {
+			margin-top: 0;
+		}
+
+		.publication-title {
+			margin-bottom: 0.5em;
+		}
+
+		@media (min-width: 600px) {
+			.publication-journal {
+				display: flex;
+				justify-content: space-between;
+			}
+		}
+
+		.publication-highlights {
+			margin-top: 2.7em;
+		}
+
+		.publication-highlight {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 0.7em;
+		}
+		.publication-highlight-where {
+			font-style: italic;
+		}
+	}
+
+	.footnote {
+		font-style: italic;
+		opacity: 0.4;
+	}
+}

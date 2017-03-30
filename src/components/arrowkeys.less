@@ -1,0 +1,39 @@
+@import (reference) "../styles/style.less";
+
+.arrowkeys {
+	display: flex;
+	align-items: flex-end;
+	font-size: 0.7em;
+
+	h6.keys-note {
+		margin: 0;
+		padding: 0 0 0.1em 1em;
+		font-size: 0.7em;
+	}
+
+	.keys {
+		flex: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bottom-row {
+		display: flex;
+	}
+
+	.key {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 2em;
+		width: 2em;
+		color: @dark-green;
+		margin: 0.2em;
+		border: 1px solid;
+
+		&-left { transform: rotate(-90deg); }
+		&-down { transform: rotate(180deg); }
+		&-right { transform: rotate(90deg); }
+	}
+}
