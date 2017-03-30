@@ -2,6 +2,7 @@ import path from "path"
 import express from "express"
 import compression from "compression"
 import bodyParser from "body-parser"
+import history from "connect-history-api-fallback"
 import morgan from "morgan"
 import config from "../config/config"
 import render from "./render"
@@ -13,6 +14,7 @@ const app = express()
 app.use(morgan(app.get("env") === "production" ? "combined" : "dev"))
 app.use(bodyParser.json())
 app.use(compression())
+app.use(history({}))
 
 app.use('/static/', express.static('dist'))
 

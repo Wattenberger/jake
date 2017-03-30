@@ -5,6 +5,7 @@ import Vue from "vue"
 import App from "./components/app.vue"
 import Home from "./components/Home.vue"
 import Publications from "./components/Publications.vue"
+import Page404 from "./components/404.vue"
 import CV from "./components/CV.vue"
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
@@ -14,6 +15,7 @@ const routes = [
   { path: '/', 			   component: Home,			name: "home" },
   { path: '/publications', component: Publications, name: "publications" },
   { path: '/cv',           component: CV          , name: "cv"           },
+  { path: '*', 			   redirect: "/" },
 ]
 
 
