@@ -24,9 +24,9 @@ const router = new VueRouter({
   routes // short for routes: routes
 })
 
-router.beforeEach(function (transition) {
+router.beforeEach(function (to, from, next) {
   window.scrollTo(0, 0)
-  transition.next()
+  next();
 })
 
 new Vue({
