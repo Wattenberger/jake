@@ -27,7 +27,7 @@ export default {
     return {
       image: jake,
       nav: [
-        {name: "home",         label: "Jacob Yates" },
+        {name: "home",         label: "Jake Yates"  },
         {name: "publications", label: "Publications"},
         {name: "cv",           label: "CV"          },
       ]
