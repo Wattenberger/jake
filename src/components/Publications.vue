@@ -33,6 +33,10 @@
 
 <script>
 import "./Publications.less"
+import bonnen15JOVKalmantracking from "./publications/Bonnen15_JOV_kalmantracking.pdf"
+import InferringSparseRepresentations from "./publications/5264-inferring-sparse-representations-of-continuous-signals-with-continuous-orthogonal-matching-pursuit.pdf"
+import ales2013NeuroImage from "./publications/Ales-2013-NeuroImage.pdf"
+import ales2010NeuroImage from "./publications/Ales-2010-NeuroImage.pdf"
 
 const publications = [
 	{
@@ -95,7 +99,7 @@ const publications = [
 		title: "Continuous Psychophysics: Target-tracking to Measure Visual Sensitivity",
 		journal: "Journal of Vision",
 		page: "15(3), 14",
-		link: "http://jake.vision/wp-content/uploads/2015/04/Bonnen15_JOV_kalmantracking.pdf",
+		link: bonnen15JOVKalmantracking,
 		pdf: true,
 	},
 	{
@@ -112,7 +116,7 @@ const publications = [
 		title: "Inferring sparse representations of continuous signals with continuous orthogonal matching pursuit",
 		journal: "Advances in Neural Information Processing Systems",
 		page: "pp. 1215-1223",
-		link: "http://jake.vision/wp-content/uploads/2014/12/5264-inferring-sparse-representations-of-continuous-signals-with-continuous-orthogonal-matching-pursuit.pdf",
+		link: InferringSparseRepresentations,
 		pdf: true,
 	},
 	{
@@ -121,7 +125,7 @@ const publications = [
 		title: "On determining the intracranial sources of visual evoked potentials from scalp topography: A reply to Kelly et al.(this issue)",
 		journal: "NeuroImage",
 		page: "64, 703-711",
-		link: "http://jake.vision/wp-content/uploads/2014/12/Ales-2013-NeuroImage.pdf",
+		link: ales2013NeuroImage,
 		pdf: true,
 	},
 	{
@@ -130,7 +134,7 @@ const publications = [
 		title: "V1 is not uniquely identified by polarity reversals of responses to upper and lower visual field stimuli",
 		journal: "Neuroimage",
 		page: "52(4), 1401-1409",
-		link: "http://jake.vision/wp-content/uploads/2014/12/Ales-2010-NeuroImage.pdf",
+		link: ales2010NeuroImage,
 		pdf: true,
 	}
 ]
