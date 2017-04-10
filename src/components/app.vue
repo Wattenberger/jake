@@ -16,7 +16,7 @@
 
 <script>
 import {KEYS} from "./utils/keys"
-import jake from "./../images/jake.jpg"
+import "../../static/favicon.png"
 import "./app.less"
 
 export default {

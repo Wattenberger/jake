@@ -49,7 +49,10 @@ module.exports = {
           'file?hash=sha512&digest=hex&name=[hash].[ext]',
           'image-webpack?{progressive: true, optimizationLevel: 7, interlaced: false, pngquant:{quality: "65-90", speed: 4}}',
         ]
-      },
+      },{
+        test: /favicon.*$/,
+        loader: 'file-loader?name=[name].[ext]'
+      }
     ]
   },
   vue: {
@@ -69,7 +72,6 @@ module.exports = {
         root: __dirname,
         verbose: true,
         dry: false,
-        exclude: ['favicon.*']
     }),
   ]
 }
