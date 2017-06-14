@@ -2,7 +2,7 @@
   <div class="Home">
     <div class="title">
       <h1>Hi, I'm Jake Yates</h1>
-      <p>I’m a post-doctoral fellow at the <a href="https://www.cvs.rochester.edu/" target="_blank">Center for Visual Science</a> at the University of Rochester in the labs of Jude Mitchell and Greg DeAngelis. I did my PhD work at the University of Texas, co-advised by <a href="http://pillowlab.princeton.edu/" target="_blank">Jonathan Pillow</a> and <a href="http://motion.cps.utexas.edu/" target="_blank">Alex Huk</a>.</p>
+      <p>I’m a post-doctoral fellow at the <a href="https://www.cvs.rochester.edu/" target="_blank">Center for Visual Science</a> at the University of Rochester in the labs of <a href="http://marmolab.bcs.rochester.edu/index.html" target="_blank">Jude Mitchell</a> and <a href="https://www.sas.rochester.edu/bcs/people/faculty/deangelis_greg/index.html" target="_blank">Greg DeAngelis</a>. I did my PhD work at the University of Texas, co-advised by <a href="http://pillowlab.princeton.edu/" target="_blank">Jonathan Pillow</a> and <a href="http://motion.cps.utexas.edu/" target="_blank">Alex Huk</a>.</p>
       <p>I’m interested in how sensory signals are encoded into neural activity and how that activity is decoded to form perceptions and actions. To approach this, I use a combination of electrophysiology, psychophysics and computational modeling.</p>
     </div>
     <div class="content content-blue">
